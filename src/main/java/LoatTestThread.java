@@ -14,7 +14,7 @@ public class LoatTestThread extends Thread {
                // System.out.println(doc.html());
                 System.out.println("Connexion finished from thread: "+ id);
             }catch (Exception e){
-                e.printStackTrace();
+                //e.printStackTrace();
             }
         }
 
