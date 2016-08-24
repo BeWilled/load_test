@@ -63,6 +63,7 @@ public class LoadTestLoginThread extends Thread {
                
              //   System.out.println(doc.html());
             }catch (Exception e){
+                e.printStackTrace();
              System.out.println("Connexion finished from thread: "+ id);
             }
         }
