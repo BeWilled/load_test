@@ -11,7 +11,7 @@
 public class LoadRegister {
     
     public static void main(String a[]){
-                int threads = 1;
+                int threads = Integer.valueOf(a[0]);
 
         for(int i = 0 ; i < threads; i++){
             LoadRegisterThread ltt = new LoadRegisterThread(i);
